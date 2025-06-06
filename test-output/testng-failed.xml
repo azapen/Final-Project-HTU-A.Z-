@@ -3,12 +3,19 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestZapen">
+      <class name="TestCases">
         <methods>
+          <include name="BookingProcess"/>
+          <include name="sortByRating"/>
+          <include name="CheckInDate_CheckOutDate"/>
+          <include name="NavigateToAccommodationDetails"/>
+          <include name="CorrectPayment"/>
+          <include name="Search_for_Accommodations"/>
+          <include name="setRandomPriceFilter"/>
+          <include name="PaymentDetails"/>
           <include name="SetUp"/>
-          <include name="BookingSubscribeInvalid"/>
         </methods>
-      </class> <!-- TestZapen -->
+      </class> <!-- TestCases -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

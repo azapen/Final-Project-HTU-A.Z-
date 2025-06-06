@@ -1,6 +1,7 @@
 
 import static org.testng.Assert.assertEquals;
 
+import java.io.IOException;
 import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
@@ -290,7 +291,7 @@ public class TestCases extends TestData {
 	}
 
 	@Test(priority = 14, enabled = true)
-	public void CorrectPayment() throws InterruptedException {
+	public void CorrectPayment() throws InterruptedException, IOException {
 		Thread.sleep(1000);
 
 		// Case: If the element with ID ":r6:" is displayed, just click the book button
@@ -321,8 +322,8 @@ public class TestCases extends TestData {
 
 			// Proceed with clicking the book button after iframe handling
 			driver.findElement(By.name("book")).click();
-
 		}
-	}
+		ScreenShot();
 
+	}
 }

@@ -1,11 +1,17 @@
+import java.io.File;
+import java.io.IOException;
 import java.time.Duration;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
+import java.util.Date;
 import java.util.List;
 import java.util.Random;
 
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -124,4 +130,24 @@ public class TestData {
 
 	}
 
+	// Take ScreenShot
+	public void ScreenShot() throws IOException, InterruptedException {
+		Thread.sleep(2000);
+
+		String Mydate = new Date().toString().replace(":", "-");
+
+		System.out.println(Mydate);
+
+		Thread.sleep(1000);
+
+		TakesScreenshot scrShot = ((TakesScreenshot) driver);
+		File SrcFile = scrShot.getScreenshotAs(OutputType.FILE);
+
+		File DestFile = new File("ScreenShots/" + Mydate + ".jpg");
+		FileUtils.copyFile(SrcFile, DestFile);
+
+		// Log the saved path
+		System.out.println("Screenshot saved at: " + DestFile.getAbsolutePath());
+
+	}
 }
