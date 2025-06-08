@@ -97,7 +97,8 @@ public class TestCases extends TestData {
 		WebElement ErrorMassege = driver.findElement(By.xpath("//p[@role='alert']"));
 		System.out.println(ErrorMassege.getText());
 		String ActualSubscribeInvalid = ErrorMassege.getText();
-		Assert.assertTrue(ActualSubscribeInvalid.contains("Please enter a valid email address."));
+		Assert.assertTrue(ActualSubscribeInvalid.contains("Please enter a valid email address.")
+				|| ActualSubscribeInvalid.contains("الرجاء إدخال عنوان البريد الالكتروني"));
 
 	}
 
@@ -291,7 +292,7 @@ public class TestCases extends TestData {
 	}
 
 	@Test(priority = 14, enabled = true)
-	public void CorrectPayment() throws InterruptedException, IOException {
+	public void FinishThePayment() throws InterruptedException, IOException {
 		Thread.sleep(1000);
 
 		// Case: If the element with ID ":r6:" is displayed, just click the book button

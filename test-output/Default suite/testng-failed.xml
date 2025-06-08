@@ -6,14 +6,17 @@
       <class name="TestCases">
         <methods>
           <include name="BookingProcess"/>
-          <include name="sortByRating"/>
+          <include name="BookingSubscribeValid"/>
           <include name="CheckInDate_CheckOutDate"/>
+          <include name="sortByRating"/>
           <include name="NavigateToAccommodationDetails"/>
+          <include name="BookingSubscribeInvalid"/>
           <include name="CorrectPayment"/>
+          <include name="Visitors_Rooms_Children"/>
           <include name="Search_for_Accommodations"/>
           <include name="setRandomPriceFilter"/>
-          <include name="PaymentDetails"/>
           <include name="SetUp"/>
+          <include name="PaymentDetails"/>
         </methods>
       </class> <!-- TestCases -->
     </classes>

@@ -65,7 +65,7 @@ public class TestData {
 
 		// Initialize Actions here after driver is ready
 		move = new Actions(driver);
-		driver.get(URL);
+		driver.get(MyWebsites[0]);
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
 

@@ -2,71 +2,71 @@
 <testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-07T00:15:18 EET" name="Default suite" finished-at="2025-06-07T00:17:45 EET" duration-ms="147790">
+  <suite started-at="2025-06-08T02:54:25 EET" name="Default suite" finished-at="2025-06-08T02:56:38 EET" duration-ms="132557">
     <groups>
     </groups>
-    <test started-at="2025-06-07T00:15:18 EET" name="Default test" finished-at="2025-06-07T00:17:45 EET" duration-ms="147790">
+    <test started-at="2025-06-08T02:54:25 EET" name="Default test" finished-at="2025-06-08T02:56:38 EET" duration-ms="132557">
       <class name="TestCases">
-        <test-method is-config="true" signature="SetUp()[pri:0, instance:TestCases@6f2cfcc2]" started-at="2025-06-07T00:15:18 EET" name="SetUp" finished-at="2025-06-07T00:15:30 EET" duration-ms="12511" status="PASS">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:TestCases@6f2cfcc2]" started-at="2025-06-08T02:54:25 EET" name="SetUp" finished-at="2025-06-08T02:54:37 EET" duration-ms="11373" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method signature="CheckTheLanguage()[pri:1, instance:TestCases@6f2cfcc2]" started-at="2025-06-07T00:15:30 EET" name="CheckTheLanguage" finished-at="2025-06-07T00:15:30 EET" duration-ms="64" status="PASS">
+        <test-method signature="CheckTheLanguage()[pri:1, instance:TestCases@6f2cfcc2]" started-at="2025-06-08T02:54:37 EET" name="CheckTheLanguage" finished-at="2025-06-08T02:54:37 EET" duration-ms="84" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckTheLanguage -->
-        <test-method signature="CheckTheCurrency()[pri:2, instance:TestCases@6f2cfcc2]" started-at="2025-06-07T00:15:30 EET" name="CheckTheCurrency" finished-at="2025-06-07T00:15:30 EET" duration-ms="58" status="PASS">
+        <test-method signature="CheckTheCurrency()[pri:2, instance:TestCases@6f2cfcc2]" started-at="2025-06-08T02:54:37 EET" name="CheckTheCurrency" finished-at="2025-06-08T02:54:37 EET" duration-ms="97" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckTheCurrency -->
-        <test-method signature="RandomlyChangeTheLanguage_And_Random_Ar_Or_En_Cities()[pri:3, instance:TestCases@6f2cfcc2]" started-at="2025-06-07T00:15:30 EET" name="RandomlyChangeTheLanguage_And_Random_Ar_Or_En_Cities" finished-at="2025-06-07T00:15:47 EET" duration-ms="16464" status="PASS">
+        <test-method signature="RandomlyChangeTheLanguage_And_Random_Ar_Or_En_Cities()[pri:3, instance:TestCases@6f2cfcc2]" started-at="2025-06-08T02:54:37 EET" name="RandomlyChangeTheLanguage_And_Random_Ar_Or_En_Cities" finished-at="2025-06-08T02:54:54 EET" duration-ms="16626" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RandomlyChangeTheLanguage_And_Random_Ar_Or_En_Cities -->
-        <test-method signature="BookingSubscribeValid()[pri:4, instance:TestCases@6f2cfcc2]" started-at="2025-06-07T00:15:47 EET" name="BookingSubscribeValid" finished-at="2025-06-07T00:15:50 EET" duration-ms="3541" status="PASS">
+        <test-method signature="BookingSubscribeValid()[pri:4, instance:TestCases@6f2cfcc2]" started-at="2025-06-08T02:54:54 EET" name="BookingSubscribeValid" finished-at="2025-06-08T02:54:57 EET" duration-ms="3405" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BookingSubscribeValid -->
-        <test-method signature="BookingSubscribeInvalid()[pri:5, instance:TestCases@6f2cfcc2]" started-at="2025-06-07T00:15:50 EET" name="BookingSubscribeInvalid" finished-at="2025-06-07T00:15:53 EET" duration-ms="2471" status="PASS">
+        <test-method signature="BookingSubscribeInvalid()[pri:5, instance:TestCases@6f2cfcc2]" started-at="2025-06-08T02:54:57 EET" name="BookingSubscribeInvalid" finished-at="2025-06-08T02:55:00 EET" duration-ms="2393" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BookingSubscribeInvalid -->
-        <test-method signature="Search_for_Accommodations()[pri:6, instance:TestCases@6f2cfcc2]" started-at="2025-06-07T00:15:53 EET" name="Search_for_Accommodations" finished-at="2025-06-07T00:16:06 EET" duration-ms="12678" status="PASS">
+        <test-method signature="Search_for_Accommodations()[pri:6, instance:TestCases@6f2cfcc2]" started-at="2025-06-08T02:55:00 EET" name="Search_for_Accommodations" finished-at="2025-06-08T02:55:12 EET" duration-ms="12922" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Search_for_Accommodations -->
-        <test-method signature="CheckInDate_CheckOutDate()[pri:7, instance:TestCases@6f2cfcc2]" started-at="2025-06-07T00:16:06 EET" name="CheckInDate_CheckOutDate" finished-at="2025-06-07T00:16:06 EET" duration-ms="431" status="PASS">
+        <test-method signature="CheckInDate_CheckOutDate()[pri:7, instance:TestCases@6f2cfcc2]" started-at="2025-06-08T02:55:13 EET" name="CheckInDate_CheckOutDate" finished-at="2025-06-08T02:55:13 EET" duration-ms="446" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckInDate_CheckOutDate -->
-        <test-method signature="Visitors_Rooms_Children()[pri:8, instance:TestCases@6f2cfcc2]" started-at="2025-06-07T00:16:06 EET" name="Visitors_Rooms_Children" finished-at="2025-06-07T00:16:22 EET" duration-ms="15953" status="PASS">
+        <test-method signature="Visitors_Rooms_Children()[pri:8, instance:TestCases@6f2cfcc2]" started-at="2025-06-08T02:55:13 EET" name="Visitors_Rooms_Children" finished-at="2025-06-08T02:55:29 EET" duration-ms="16059" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Visitors_Rooms_Children -->
-        <test-method signature="NavigateToAccommodationDetails()[pri:9, instance:TestCases@6f2cfcc2]" started-at="2025-06-07T00:16:22 EET" name="NavigateToAccommodationDetails" finished-at="2025-06-07T00:16:30 EET" duration-ms="8081" status="PASS">
+        <test-method signature="NavigateToAccommodationDetails()[pri:9, instance:TestCases@6f2cfcc2]" started-at="2025-06-08T02:55:29 EET" name="NavigateToAccommodationDetails" finished-at="2025-06-08T02:55:38 EET" duration-ms="9293" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- NavigateToAccommodationDetails -->
-        <test-method signature="setRandomPriceFilter()[pri:10, instance:TestCases@6f2cfcc2]" started-at="2025-06-07T00:16:30 EET" name="setRandomPriceFilter" finished-at="2025-06-07T00:16:33 EET" duration-ms="2796" status="PASS">
+        <test-method signature="setRandomPriceFilter()[pri:10, instance:TestCases@6f2cfcc2]" started-at="2025-06-08T02:55:38 EET" name="setRandomPriceFilter" finished-at="2025-06-08T02:55:43 EET" duration-ms="4577" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setRandomPriceFilter -->
-        <test-method signature="sortByRating()[pri:11, instance:TestCases@6f2cfcc2]" started-at="2025-06-07T00:16:33 EET" name="sortByRating" finished-at="2025-06-07T00:16:38 EET" duration-ms="5322" status="PASS">
+        <test-method signature="sortByRating()[pri:11, instance:TestCases@6f2cfcc2]" started-at="2025-06-08T02:55:43 EET" name="sortByRating" finished-at="2025-06-08T02:55:46 EET" duration-ms="2675" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sortByRating -->
-        <test-method signature="BookingProcess()[pri:12, instance:TestCases@6f2cfcc2]" started-at="2025-06-07T00:16:38 EET" name="BookingProcess" finished-at="2025-06-07T00:16:52 EET" duration-ms="13919" status="PASS">
+        <test-method signature="BookingProcess()[pri:12, instance:TestCases@6f2cfcc2]" started-at="2025-06-08T02:55:46 EET" name="BookingProcess" finished-at="2025-06-08T02:55:58 EET" duration-ms="12795" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BookingProcess -->
-        <test-method signature="PaymentDetails()[pri:13, instance:TestCases@6f2cfcc2]" started-at="2025-06-07T00:16:52 EET" name="PaymentDetails" finished-at="2025-06-07T00:17:06 EET" duration-ms="14231" status="PASS">
+        <test-method signature="PaymentDetails()[pri:13, instance:TestCases@6f2cfcc2]" started-at="2025-06-08T02:55:58 EET" name="PaymentDetails" finished-at="2025-06-08T02:56:13 EET" duration-ms="14973" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PaymentDetails -->
-        <test-method signature="CorrectPayment()[pri:14, instance:TestCases@6f2cfcc2]" started-at="2025-06-07T00:17:06 EET" name="CorrectPayment" finished-at="2025-06-07T00:17:45 EET" duration-ms="39013" status="PASS">
+        <test-method signature="FinishThePayment()[pri:14, instance:TestCases@6f2cfcc2]" started-at="2025-06-08T02:56:13 EET" name="FinishThePayment" finished-at="2025-06-08T02:56:38 EET" duration-ms="24534" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CorrectPayment -->
+        </test-method> <!-- FinishThePayment -->
       </class> <!-- TestCases -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
