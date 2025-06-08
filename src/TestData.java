@@ -17,6 +17,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -149,5 +150,15 @@ public class TestData {
 		// Log the saved path
 		System.out.println("Screenshot saved at: " + DestFile.getAbsolutePath());
 
+	}
+
+	// This method will automatically run after tests finish
+	@AfterClass
+	public void tearDown() {
+		if (driver != null) {
+			driver.quit();
+			System.out.println("Browser closed,THANK YOU !");
+
+		}
 	}
 }
