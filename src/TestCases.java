@@ -67,6 +67,8 @@ public class TestCases extends TestData {
 
 	}
 
+	// Happy scenario For The Subscribe  
+
 	@Test(priority = 4, enabled = true)
 	public void BookingSubscribeValid() throws InterruptedException {
 		driver.get(SubscribeURL);
@@ -84,6 +86,7 @@ public class TestCases extends TestData {
 
 	}
 
+	// Sad scenario For The Subscribe  
 	@Test(priority = 5, enabled = true)
 	public void BookingSubscribeInvalid() throws InterruptedException {
 		driver.get(SubscribeURL);
