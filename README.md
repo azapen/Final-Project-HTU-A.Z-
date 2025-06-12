@@ -7,15 +7,15 @@
 
 ---
 
-##  Project Summary
+## Project Summary
 
-This project presents a complete end-to-end automated testing framework for Booking.com, designed and implemented as part of the **Upskilling Program at Al Hussein Technical University (HTU)**. The framework is built using **Java, Selenium WebDriver, and TestNG**, with a strong emphasis on **multilingual testing (English and Arabic)**, **UI responsiveness**, **form validation**, and **payment process simulations**.
+This project presents a complete end-to-end automated testing framework for Booking.com, designed and implemented as part of the Upskilling Program at Al Hussein Technical University (HTU). The framework is built using Java, Selenium WebDriver, and TestNG, with a strong emphasis on multilingual testing (English and Arabic), UI responsiveness, form validation, and payment process simulations.
 
-It adheres to best practices in QA automation, including the **Page Object Model (POM)** design pattern, modular test case development, and robust exception handling. The purpose is to reduce manual testing efforts, improve regression cycles, and ensure high-quality user experiences on one of the most trafficked travel platforms.
+It adheres to best practices in QA automation, including the Page Object Model (POM) design pattern, modular test case development, and robust exception handling. The purpose is to reduce manual testing efforts, improve regression cycles, and ensure high-quality user experiences on one of the most trafficked travel platforms.
 
 ---
 
-##  Repository Structure
+## Repository Structure
 
 BookingAutomation/
 ├── src/
@@ -29,32 +29,37 @@ BookingAutomation/
 ├── README.md # Project documentation
 └── reports/ # TestNG HTML reports (auto-generated)
 
-
-##  Automated Test Coverage
-
-The following features and flows are validated through automated tests:
-
-###  Functional Areas Covered
-
-- **Language & Currency Selection** (English and Arabic support)
-- **Hotel Search Functionality** with city, date, and guest filters
-- **Booking Form** validation (positive and negative scenarios)
-- **Payment Page** iframe simulation and input interaction
-- **Email Subscription & Pop-up Handling**
-- **Edge Case Testing** (e.g., invalid dates, overbooking)
-
-###  Sample Test Cases
-
-| Test Case ID | Description                                         | Status |
-|--------------|-----------------------------------------------------|--------|
-| TC01         | Verify language toggle (English ↔ Arabic)           | ✅ Pass |
-| TC04         | Booking confirmation popup validation               | ✅ Pass |
-| TC07         | Invalid date entry triggers validation message      | ✅ Pass |
-| TC10         | Newsletter subscription with invalid email format   | ✅ Pass |
+yaml
+Copy
+Edit
 
 ---
 
-##  Technologies Used
+## Automated Test Coverage
+
+The following features and flows are validated through automated tests:
+
+### Functional Areas Covered
+
+- Language & Currency Selection (English and Arabic support)
+- Hotel Search Functionality with city, date, and guest filters
+- Booking Form validation (positive and negative scenarios)
+- Payment Page iframe simulation and input interaction
+- Email Subscription & Pop-up Handling
+- Edge Case Testing (e.g., invalid dates, overbooking)
+
+### Sample Test Cases
+
+| Test Case ID | Description                                         | Status |
+|--------------|-----------------------------------------------------|--------|
+| TC01         | Verify language toggle (English ↔ Arabic)           | Pass   |
+| TC04         | Booking confirmation popup validation               | Pass   |
+| TC07         | Invalid date entry triggers validation message      | Pass   |
+| TC10         | Newsletter subscription with invalid email format   | Pass   |
+
+---
+
+## Technologies Used
 
 | Category         | Tool/Technology        |
 |------------------|------------------------|
@@ -69,7 +74,7 @@ The following features and flows are validated through automated tests:
 
 ---
 
-##  Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -81,11 +86,14 @@ The following features and flows are validated through automated tests:
 
 ### Installation & Execution
 
-1. **Clone the repository**
+1. Clone the repository
    ```bash
    git clone https://github.com/azapen/Final-Project-HTU-A.Z-.git
 Navigate to the project directory
 
+bash
+Copy
+Edit
 cd Final-Project-HTU-A.Z-
 Run the test suite via TestNG
 
@@ -99,7 +107,7 @@ View Reports
 
 Navigate to /test-output/index.html to view the results in your browser.
 
- Future Enhancements
+Future Enhancements
 Integrate with CI/CD pipelines (e.g., Jenkins, GitHub Actions)
 
 Implement Allure or ExtentReports for detailed reporting
@@ -110,7 +118,7 @@ Expand to mobile/responsive layout testing (e.g., Appium, Selenium Grid)
 
 Capture screenshots on test failure for better debugging
 
- Contribution Guidelines
+Contribution Guidelines
 While this is a final academic project, contributions or suggestions are welcome.
 
 Fork the repository
@@ -123,10 +131,16 @@ Push to the branch: git push origin feature-name
 
 Create a pull request
 
+References
+Refer to the full project report here (if uploaded) for detailed documentation, design approach, test strategy, and screenshots.
 
- Author
+License
+This project is licensed under the MIT License.
+
+Author
 Ahmad Zapen
 Upskilling Program - Al Hussein Technical University (HTU)
+
 Supervised by:
 
 Eng. Abdulraheem Alaska
@@ -134,5 +148,3 @@ Eng. Abdulraheem Alaska
 Dr. Basheer Mufleh
 
 Coach. Madonna Samawi
-
-
